@@ -1,1 +1,1 @@
-# Web-Development-projects-calculator
+# This repository contains basic web developmet projects 
