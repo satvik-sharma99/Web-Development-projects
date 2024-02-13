@@ -1,0 +1,55 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+  body {
+    background-image: url('./education.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100%;
+    overflow: hidden; /* Optional: Prevents scrolling if your image is large */
+  }
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  text-align: center;
+  animation: fadeIn 1.5s ease-out;
+}
